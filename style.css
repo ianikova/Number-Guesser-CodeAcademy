@@ -6,7 +6,8 @@
 body {
   margin: 0 auto;
   padding: 3px;
-  background-color: #fff;
+  font-family: monospace;
+  background-color: #fde74c;
 }
 
 .game-container {
@@ -77,17 +78,17 @@ header {
 }
 
 .computer-guess {
-  background-color: #ececec;
+  background-color: #daf95f;
 }
 
 #computer-guess {
   font-size: 50px;
   font-weight: 700;
-  color: #a5a5a5;
+  color: #646360;
 }
 
 .human-guess {
-  border: 1px solid #979797;
+  border: 1px solid #f59051;
 }
 
 .guess input {
@@ -105,13 +106,13 @@ header {
 }
 
 .number-control {
-  border: solid 1px #4c7ef3;
+  border: solid 1px #35f338;
   display: inline-block;
   width: 45px;
   height: 35px;
   font-size: 24px;
   font-weight: 700;
-  color: #4c7ef3;
+  color: #35f338;
   cursor: pointer;
 }
 
@@ -137,7 +138,7 @@ header {
 }
 
 .button {
-  background-color: #4c7ef3;
+  background-color: #35f338;
   color: #fff;
   cursor: pointer;
 }
@@ -172,7 +173,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .instructions {
-  background-color: #ececec;
+  background-color: #fde74c;
   width: 100%;
   display: flex;
   justify-content: space-around;
